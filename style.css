@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home-main{
+    background-image: url(images/image1.webp);
+    background-repeat: no-repeat;
+    background-size:100%;
+    height: 200vh;  
+}
+.box-8 button{
+    background-color: rgb(247, 230, 36);
+    margin-top: 50px;
+
+}
+iframe{
+    width:100%;
+    height: 90vh;
+}
+@media (max-width:425px) {
+    .sar{
+        order: 2;
+    }
+    .con-5{
+        order: 1;
+    
+    }
+    .box-7{
+        margin-right: 150px;
+    }
+    .home-main{
+        background-image: url(images/image1.webp);
+        background-repeat: no-repeat;
+        background-size:100%;
+        height:auto;  
+    }
+    iframe{
+        width:100%;
+        height: 100vh;
+    }
+    #two{
+        margin-top:auto;
+    }
+  
+
+    
+} 
+@media (max-width:1024px) {
+    #two{
+        margin-top:100px;
+    }
+    iframe{
+        width:100%;
+        height: 100vh;
+    }
+    .home-one{
+        margin-top:450px;
+    }
+    .home-main{
+        background-image: url(images/image1.webp);
+        background-repeat: no-repeat;
+        background-size:100%;
+        height:auto;  
+
+
+}
+}
+ #lab-inputs{
+    width: 100%;
+    height: 50px;
+    border: none;
+    color: rgb(59, 59, 59);
+    border-color: rgb(226, 226, 226);
+    background-color: rgb(241, 241, 241);
+}
+
+ #lab-inputs-2{
+    width: 100%;
+    height: 50px;
+    border: none;
+    color: rgb(59, 59, 59);
+    border-color: rgb(226, 226, 226);
+    background-color: rgb(225, 204, 204);
+
+  
+ }
+ 
+.offcanvas-title{
+    font-size: 24px;
+    line-height: 1.25;
+    font-weight: 400;
+}
+.message-pannel{
+    width: 100%;
+    height: 110px;
+    position: absolute;
+    z-index: 3;
+    top: 10%;
+    background-color: rgb(253, 253, 174);
+}
+.canva-head{
+    width: 150%;
+    height:100px;
+}
+.message-bot{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    left: 85%;
+    bottom: 2%;
+    
+}
+@media(max-width:425px)
+{
+    .message-bot{
+        width: 100px;
+        height: 100px;
+        position: fixed;
+        left: 65%;
+        bottom: 2%;
+   
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
